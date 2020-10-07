@@ -9,4 +9,4 @@ FROM nginx:1.11-alpine
 LABEL Descripción="Mi servicio web" Autor="Manuel Morejón" Versión="v1.0.0"
 
 # Se copian los ficheros hacia la carpeta de nginx
-COPY static-html /usr/share/nginx/html
+#COPY static-html /usr/share/nginx/html
